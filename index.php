@@ -18,33 +18,33 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-4">
-            <form action="">
+            <form action="agregardatos.php" method="POST">
             <div class="form-group">
     <label for="nombre">nombre</label>
-    <input type="texto" class="form-control" id="nombre" 
+    <input type="texto" class="form-control" id="nombre"name="nombre">
   </div>     <div class="form-group">
     <label for="cedula">cedula</label>
-    <input type="number" class="form-control" id="cedula" 
+    <input type="number" class="form-control" id="cedula"name="cedula">
   </div>
   <div class="form-group">
     <label for="apellido">apellido</label>
-    <input type="texto" class="form-control" id="apellido" 
+    <input type="texto" class="form-control" id="apellido"name="apellido"> 
   </div>
   <label for="edad">edad</label>
-    <input type="number" class="form-control" id="edad" 
+    <input type="number" class="form-control" id="edad"name="edad">
   </div>
   </div>
   <label for="telefono">telefono</label>
-    <input type="number" class="form-control" id="telefono" 
+    <input type="number" class="form-control" id="telefono"name="telefono">  
   </div>
   </div>
   <label for="direccion">direccion</label>
-    <input type="texto" class="form-control" id="direccion" 
+    <input type="texto" class="form-control" id="direccion"name="direccion"> 
   </div>
 
  
  
-  <button type="submit" class="btn btn-primary btn-block">registra</button>
+  <button type="submit" class="btn btn-primary btn-block" name="botonenviar">registra</button>
            
            
            
